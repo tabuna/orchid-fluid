@@ -1,0 +1,27 @@
+{
+    "name": "tabuna/orchid-fluid",
+    "description": "Theme for Laravel Orchid using full width",
+    "type": "library",
+    "require": {
+        "orchid/platform": "^6.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tabuna",
+            "email": "bliz48rus@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Tabuna\\Fluid\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tabuna\\Fluid\\FluidServiceProvider"
+            ]
+        }
+    }
+}
