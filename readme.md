@@ -7,7 +7,7 @@ This is a small package that fixes the use of white-space.
 Via Composer
 
 ``` bash
-$ composer require tabuna/fluid
+$ composer require tabuna/orchid-fluid
 ```
 
 
